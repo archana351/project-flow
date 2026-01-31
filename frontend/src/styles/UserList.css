@@ -1,0 +1,58 @@
+@import './Form.css';
+
+.user-list {
+  margin-top: 20px;
+}
+
+.user-list .count {
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.user-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.user-info {
+  flex: 1;
+}
+
+.user-info strong {
+  color: #333;
+  display: block;
+}
+
+.user-item .delete-btn {
+  padding: 5px 10px;
+  font-size: 12px;
+  background-color: #dc3545;
+  margin-left: 10px;
+  width: auto;
+}
+
+.user-item .delete-btn:hover {
+  background-color: #c82333;
+}
+
+.empty-message {
+  color: #999;
+  font-style: italic;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+}

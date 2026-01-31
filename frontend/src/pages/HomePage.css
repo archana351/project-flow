@@ -1,0 +1,40 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #AFCBD5;
+  padding: 20px;
+}
+
+.home-content {
+  text-align: center;
+  color: #1f2937;
+}
+
+.home-content h1 {
+  font-size: 48px;
+  margin: 0 0 16px 0;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.home-content p {
+  font-size: 18px;
+  margin: 0 0 32px 0;
+  opacity: 0.95;
+  line-height: 1.6;
+}
+
+.home-content button {
+  padding: 13px 32px;
+  font-size: 16px;
+  background-color: #ff7566;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.home-content button:hover {
+  background-color: #ff6455;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
